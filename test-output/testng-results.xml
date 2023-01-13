@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-12T11:53:52 ART" name="Default suite" finished-at="2023-01-12T11:54:27 ART" duration-ms="35280">
+    <groups>
+    </groups>
+    <test started-at="2023-01-12T11:53:52 ART" name="Default test" finished-at="2023-01-12T11:54:27 ART" duration-ms="35280">
+      <class name="Edit.SauceDemo.Asignacion6">
+        <test-method is-config="true" signature="abrirNavegador()[pri:0, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:53:47 ART" name="abrirNavegador" finished-at="2023-01-12T11:53:52 ART" duration-ms="4400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:53:53 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:53:58 ART" duration-ms="4568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mi_usuario_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[apellido]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:53:58 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:54:01 ART" duration-ms="3453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mi_usuario_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pellido2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[32435]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:54:01 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:54:05 ART" duration-ms="3455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mi_usuario_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[apellido3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[342424]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:54:05 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:54:08 ART" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[apellido4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3424]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:54:08 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:54:11 ART" duration-ms="3257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mi_usuario_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[apellido5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[34244]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:54:11 ART" name="login" description="CP01-iniciarSesion" data-provider="Datos Orden" finished-at="2023-01-12T11:54:27 ART" duration-ms="15788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nombre5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[apellido6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[345664]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="cerrarnavegador()[pri:0, instance:Edit.SauceDemo.Asignacion6@5c6648b0]" started-at="2023-01-12T11:54:27 ART" name="cerrarnavegador" finished-at="2023-01-12T11:54:28 ART" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarnavegador -->
+      </class> <!-- Edit.SauceDemo.Asignacion6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
