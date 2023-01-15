@@ -28,15 +28,12 @@ public class Asignacion6 {
 	Boolean iniciasesion = true;
 
 	@BeforeSuite
-	
+
 	public void abrirNavegador() throws InvalidFormatException, IOException, InterruptedException {
-		 CapturaEvidencia.escribirTituloEnDocumento(rutaEvidencia + nombreDocumento, "Evidencias SauceDemo", 18);
 		driver = new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
-		
-
-		// captura evidencia escribir titulo
+		CapturaEvidencia.escribirTituloEnDocumento(rutaEvidencia + nombreDocumento, "Evidencias SauceDemo", 18);
 
 	}
 
@@ -49,7 +46,8 @@ public class Asignacion6 {
 		driver.findElement(By.cssSelector("#password")).sendKeys(password);
 		driver.findElement(By.cssSelector("#login-button")).click();
 		// captura evidencia
-		//CapturaEvidencia.escribirTituloEnDocumento(rutaEvidencia + nombreDocumento, "Evidencias SauceDemo", 18);
+		// CapturaEvidencia.escribirTituloEnDocumento(rutaEvidencia + nombreDocumento,
+		// "Evidencias SauceDemo", 18);
 		CapturaEvidencia.capturarPantallaEnDocumento(driver, rutaEvidencia + "img.jpg", rutaEvidencia + nombreDocumento,
 				"Paso 1 - Página Login");
 
@@ -106,7 +104,7 @@ public class Asignacion6 {
 			CapturaEvidencia.capturarPantallaEnDocumento(driver, rutaEvidencia + "img.jpg",
 					rutaEvidencia + nombreDocumento, "Paso 7 - Home");
 
-            //Agregamos una espera y cerramos sesión
+			// Agregamos una espera y cerramos sesión
 			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			wait.until(ExpectedConditions.elementToBeClickable(By.id("logout_sidebar_link"))).click();
 			System.out.println("Sesion finalizada");
